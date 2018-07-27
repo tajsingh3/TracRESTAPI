@@ -1,6 +1,6 @@
-# TracResfulApi
+# TracRESTfulApi
 
-This is a python Restful Api which analyses data for policies and procedures within an organization and creates a data summary for each department in a JSON format.
+This is a python RESTful Api which analyses data for policies and procedures within an organization and creates a data summary for each department in a JSON format.
 
 Sample endpoints and related data are shown
 
