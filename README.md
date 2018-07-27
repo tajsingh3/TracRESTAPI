@@ -1,4 +1,4 @@
-# TracRESTfulApi
+# TracRESTfulAPI
 
 This is a python Django REST Api which analyses data for policies and procedures within an organization and creates a data summary for each department in a JSON format.
 
