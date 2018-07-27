@@ -31,14 +31,31 @@ class SbuSerializer(serializers.Serializer):
 
 
 class SbuSet:
-    def __init__(self, corporate, retail):
+    def __init__(self, corporate, retail, treasury, financial, operations,
+                 humanResources, investments, rmc, accounts, infotech):
         self.corporate = corporate
         self.retail = retail
+        self.treasury = treasury
+        self.financial = financial
+        self.operations = operations
+        self.humanResources = humanResources
+        self.investments = investments
+        self.rmc = rmc
+        self.accounts = accounts
+        self.infotech = infotech
 
 
 class SbuSetSerializer(serializers.Serializer):
     corporate = SbuSerializer()
     retail = SbuSerializer()
+    treasury = SbuSerializer()
+    financial = SbuSerializer()
+    operations = SbuSerializer()
+    humanResources = SbuSerializer()
+    investments = SbuSerializer()
+    rmc = SbuSerializer()
+    accounts = SbuSerializer()
+    infotech = SbuSerializer()
 
 
 class TracEntry:
