@@ -12,7 +12,7 @@ SBU_MAPPER = {
     'treasury': 'Treasury',
     'financial': 'Financial',
     'operations': 'Operations',
-    'human resources': 'Human resources',
+    'humanResources': 'Human resources',
     'investments': 'Investments',
     'rmc': 'RMC',
     'accounts': 'Accounts',
